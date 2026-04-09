@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file creates the bottom navigation menu -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- This item opens the event list screen -->
+    <item
+        android:id="@+id/eventList"
+        android:title="Event List"
+        android:icon="@android:drawable/ic_menu_agenda" />
+
+    <!-- This item opens the add event screen -->
+    <item
+        android:id="@+id/addEvent"
+        android:title="Add Event"
+        android:icon="@android:drawable/ic_input_add" />
+
+</menu>
